@@ -4,8 +4,6 @@
 
 The **Web Attack Prediction System** is a machine learning-based web application designed to classify network traffic as either `BENIGN` or one of three types of web attacks: `Web Attack – Brute Force`, `Web Attack – Sql Injection`, or `Web Attack – XSS`. The system uses a pre-trained Random Forest model to make predictions based on 85 network traffic features. The application is built with Flask, providing a user-friendly web interface where users can manually input feature values to get predictions.
 
-This project serves as the original implementation, focusing on core functionality without themed UI variations.
-
 ## Features
 
 - Predicts web attack types using a Random Forest model.
